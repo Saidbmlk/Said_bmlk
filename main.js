@@ -68,7 +68,7 @@ function SADDB() {
         FOL.start(function() {
           $("#step34").html("الخطوة الرابعة: التحقق من أنك لست روبوت")
           $("#CONS").fadeOut(1500, function() {
-$("#CONS").html("<strong class='reddd'>خطأ! يجب علينا التحقق من أنك إنسان ولست روبوت</strong> إضغط على زر التحقق لكي تبدأ عملية إرسال " + WANTED + " جوهرة الخاصة بك");
+$("#CONS").html("<strong class='reddd'>خطأ! يجب علينا التحقق من أنك إنسان ولست روبوت</strong> إضغط على زر التحقق لكي تبدأ عملية إرسال " + WANTED + " الجواهر الخاصة بك");
             $("#CONS").fadeIn(1500);
             $(".VB").fadeIn(1500).removeClass("VB");
           })
