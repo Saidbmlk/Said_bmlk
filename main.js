@@ -79,11 +79,11 @@ $("#CONS").html("<strong class='reddd'>خطأ! يجب علينا التحقق م
         }, 6000)
 
         setTimeout(function() {
-          $("#CONS").html(" جاري إضافة " + WANTED +  " جوهرة")
+          $("#CONS").html(" Loading To Add " + WANTED +  " Diamond")
         }, 9000)
 
         setTimeout(function() {
-          $("#CONS").html("ضغط كبير على سارفر شحن فري فاير")
+          $("#CONS").html("Please wait a moment")
         }, 14000)
   }, 1500)
 
@@ -98,7 +98,7 @@ function SADD() {
   $(".freerobux").fadeIn(1500);
   
 
-  $("#step34").html("الخطوة الثالثة: جاري شحن فري فاير")
+  $("#step34").html("الخطوة الثالثة: Waiting for shipping")
 
         $("#BTNADD").fadeOut(1500, function() {
           $("#CONS").fadeIn(1500);
